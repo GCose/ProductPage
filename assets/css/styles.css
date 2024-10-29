@@ -12,6 +12,7 @@
     --primary-dark: #1d4ed8;
     --selection-color: rgba(0, 64, 255, 0.175);
     --header-background: rgba(255, 255, 255, 0.95);
+    --features-card-background: var(--header-background);
     /*=== End of Colors ===*/
 
     /*=== Border Radius ===*/
@@ -44,6 +45,7 @@
     --text-light: #bed4f4;
     --footer-gradient: var(--header-background);
     --header-background: rgba(255, 255, 255, 0.153);
+    --features-card-background: rgba(255, 255, 255, 0.096);
     --gradient-1: linear-gradient(120deg, #76aafc, #a143ff);
     --shadow-1: 0 5px 20px 0 rgba(255, 255, 255, 0.1),
         0 5px 7px 0 rgba(255, 255, 255, 0.06);
@@ -522,9 +524,9 @@ body {
     padding: 2.5rem;
     overflow: hidden;
     position: relative;
-    background: var(--surface);
     box-shadow: var(--shadow-1);
     border-radius: var(--radius-1);
+    background: var(--features-card-background);
 }
 
 .feature-card::before {
@@ -586,9 +588,9 @@ body {
 
 .testimonial-card {
     padding: 2.5rem;
-    background: var(--surface);
     box-shadow: var(--shadow-1);
     border-radius: var(--radius-1);
+    background: var(--features-card-background);
 }
 
 .testimonial-card:hover {
